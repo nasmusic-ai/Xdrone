@@ -27,7 +27,7 @@ const VideoModal: React.FC<VideoModalProps> = ({ isOpen, onClose }) => {
         <iframe
           width="100%"
           height="100%"
-          src="https://www.youtube.com/embed/2g811Eo7K8U?autoplay=1"
+          src="https://github.com/nasmusic-ai/RAW/blob/main/Drone-Video.mp4?raw=true"
           title="X Drone Capabilities"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

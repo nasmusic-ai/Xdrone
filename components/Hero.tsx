@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
           <div className="relative mt-10 lg:mt-0">
              <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl bg-slate-200 relative group cursor-pointer" onClick={() => setIsVideoOpen(true)}>
                 <img 
-                  src="https://picsum.photos/800/600?grayscale" 
+                  src="https://github.com/nasmusic-ai/RAW/blob/main/aa2.png?raw=true" 
                   alt="Futuristic Drone Aircraft" 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
