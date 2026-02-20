@@ -8,7 +8,7 @@ const DesignSection: React.FC = () => {
       description: "No conventional control surfaces required. Direct modulation of thrust for maneuverability.",
       icon: <ArrowDown className="h-6 w-6 text-white" />,
       color: "bg-blue-600",
-      image: "https://github.com/nasmusic-ai/RAW/blob/main/trust-vectoring.jpeg?raw=true"
+      image: "https://github.com/nasmusic-ai/RAW/blob/main/engine2.png?raw=true"
     },
     {
       title: "Electric Propulsion",
@@ -17,12 +17,19 @@ const DesignSection: React.FC = () => {
       color: "bg-blue-700",
       image: "https://github.com/nasmusic-ai/RAW/blob/main/electric-propulsion-2.png?raw=true"
     },
+	 {
+  title: "Interior of a Futuristic Six-Seater Drone",
+  description: "Engineered with distributed electric propulsion for ultra-quiet performance, enhanced efficiency, and advanced safety reliability.",
+  icon: <Zap className="h-6 w-6 text-white" />,
+  color: "bg-blue-700",
+  image: "https://github.com/nasmusic-ai/RAW/blob/main/engine-xray.png?raw=true"
+},
     {
       title: "Mid-Mounted Wings",
       description: "Improves stability and load distribution across the airframe structure.",
       icon: <Layers className="h-6 w-6 text-white" />,
       color: "bg-blue-800",
-      image: "https://github.com/nasmusic-ai/RAW/blob/main/Mid-mounted-wing.png?raw=true"
+      image: "https://github.com/nasmusic-ai/RAW/blob/main/Mid-mounted-wing2.png?raw=true"
     },
   ];
 
