@@ -15,7 +15,7 @@ const DesignSection: React.FC = () => {
       description: "Low noise signature and high safety operation standards through distributed electric power.",
       icon: <Zap className="h-6 w-6 text-white" />,
       color: "bg-blue-700",
-      image: "https://github.com/nasmusic-ai/RAW/blob/main/electric-propulsion.png?raw=true"
+      image: "https://github.com/nasmusic-ai/RAW/blob/main/electric-propulsion-2.png?raw=true"
     },
     {
       title: "Mid-Mounted Wings",
