@@ -11,12 +11,16 @@ const VideoModal: React.FC<VideoModalProps> = ({ isOpen, onClose }) => {
 
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6">
+      {/* Overlay */}
       <div 
         className="absolute inset-0 bg-slate-900/90 backdrop-blur-sm transition-opacity" 
         onClick={onClose}
         aria-hidden="true"
       />
+
+      {/* Modal content */}
       <div className="relative w-full max-w-5xl bg-black rounded-2xl overflow-hidden shadow-2xl aspect-video animate-in fade-in zoom-in duration-300">
+        {/* Close button */}
         <button
           onClick={onClose}
           className="absolute top-4 right-4 z-10 p-2 bg-black/50 hover:bg-black/70 text-white rounded-full transition-colors backdrop-blur-md"
@@ -24,16 +28,16 @@ const VideoModal: React.FC<VideoModalProps> = ({ isOpen, onClose }) => {
         >
           <X className="w-6 h-6" />
         </button>
-        <iframe
-          width="100%"
-          height="100%"
+
+        {/* Video */}
+        <video
           src="https://github.com/nasmusic-ai/RAW/blob/main/Drone-Video.mp4?raw=true"
-          title="X Drone Capabilities"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          className="absolute inset-0 w-full h-full"
-        ></iframe>
+          autoPlay
+          loop
+          muted
+          controls
+          className="absolute inset-0 w-full h-full object-cover"
+        />
       </div>
     </div>
   );
